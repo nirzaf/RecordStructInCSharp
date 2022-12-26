@@ -9,13 +9,15 @@ WriteLine("Record struct in C#...");
 
 BenchmarkRunner.Run<CircleFunctions>();
 
-/*Circle c1 = new(7);
+/*
+Circle c1 = new(7);
 
 var area = c1.Area;
 var circumference = c1.Circumference;
 
 Console.WriteLine("Area : " + area);
-Console.WriteLine("Circumference: " + circumference);*/
+Console.WriteLine("Circumference: " + circumference);
+*/
 
 [MemoryDiagnoser]
 public class CircleFunctions
