@@ -22,18 +22,16 @@ Console.WriteLine("Circumference: " + circumference);
 [MemoryDiagnoser]
 public class CircleFunctions
 {
-    private Circle circle = new(7);
-
     [Benchmark]
     public void PrintArea()
     {
-        WriteLine("Area : " + circle.Area);
+        WriteLine("Area : " + new Circle(7).Area);
     }
 
     [Benchmark]
     public void PrintCircumference()
     {
-        WriteLine("Circumference: " + circle.Circumference);
+        WriteLine("Circumference: " + new Circle(7).Circumference);
     }
 
     [Benchmark]
