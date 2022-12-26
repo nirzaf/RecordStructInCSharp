@@ -53,7 +53,7 @@ public class CircleFunctions
 
 //using record struct to find the area of circle from radius 
 
-public record struct Circle(double radius)
+public readonly record struct Circle(double radius)
 {
     public double Area => PI * radius * radius;
     
