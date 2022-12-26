@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecordStructInCSharp", "RecordStructInCSharp.csproj", "{316E74A5-42C9-4E55-B26D-AF5899A356C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{316E74A5-42C9-4E55-B26D-AF5899A356C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{316E74A5-42C9-4E55-B26D-AF5899A356C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{316E74A5-42C9-4E55-B26D-AF5899A356C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{316E74A5-42C9-4E55-B26D-AF5899A356C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
