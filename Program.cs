@@ -23,13 +23,13 @@ Console.WriteLine("Circumference: " + circumference);
 public class CircleFunctions
 {
     [Benchmark]
-    public void PrintArea()
+    public static void PrintArea()
     {
         WriteLine("Area : " + new Circle(7).Area);
     }
 
     [Benchmark]
-    public void PrintCircumference()
+    public static void PrintCircumference()
     {
         WriteLine("Circumference: " + new Circle(7).Circumference);
     }
