@@ -1,0 +1,7 @@
+// Validating benchmarks:
+// Benchmark CircleFunctions.PrintArea: DefaultJob
+//    * Benchmarked method `PrintArea` is static. Benchmarks MUST be instance methods, static methods are not supported.
+
+// Benchmark CircleFunctions.PrintCircumference: DefaultJob
+//    * Benchmarked method `PrintCircumference` is static. Benchmarks MUST be instance methods, static methods are not supported.
+
