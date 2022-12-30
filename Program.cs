@@ -1,18 +1,27 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-using BenchmarkDotNet.Running;
 using static System.Console;
 
 WriteLine("Record struct in C#...");
 
-//BenchmarkRunner.Run<CircleFunctions>();
+BankAccount account = new(15);
 
-Circle c1 = new(7);
+WriteLine($"Interest Rate: {account.CalculateInterest(1000)}");
 
-var area = c1.Area;
-var circumference = c1.Circumference;
+ReadLine();
 
-WriteLine("Area : " + area);
-WriteLine("Circumference: " + circumference);
+public class BankAccount
+{
+    private decimal InterestRate { get; }
+    
+    public BankAccount(decimal interestRate)
+    {
+        InterestRate = interestRate;
+    }
+    
+    public decimal CalculateInterest(decimal amount)
+    {
+        return amount * InterestRate/100;
+    }
+}
 
-//using record struct to find the area of circle from radius 

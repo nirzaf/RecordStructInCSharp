@@ -1,4 +1,5 @@
 ﻿using BenchmarkDotNet.Attributes;
+using static System.Math;
 
 [MemoryDiagnoser]
 public class CircleFunctions
@@ -19,7 +20,7 @@ public class CircleFunctions
     public void PrintAreaUsingNormalMethod()
     {
         const double radius = 7;
-        Console.WriteLine("Area : " + 2*Math.PI*radius);
+        Console.WriteLine("Area : " + 2 * PI * radius);
     }
 
     [Benchmark]
